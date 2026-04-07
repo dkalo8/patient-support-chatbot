@@ -21,9 +21,8 @@ This repository is organized logically for easy navigation and contribution:
   - `disease_model.pkl` & `drug_recommendation_model.pkl`
   - `tfidf_vectorizer.pkl`, `label_encoder.pkl`, & `BERT_tokenizer_model.pkl`
   - `gpt2-finetuned/` transformer module
-- **`/notebooks/`**: Contains raw exploratory notebooks used for dataset processing and model training (e.g., `Clinical_Chatbot_Project.ipynb` & `Preprocessing/`).
-- **`/docs/`**: Includes the detailed NLP final project report (`CS 6120 - NLP Final Project - Clinical Chatbot.pdf`).
-- **`chatbot.ipynb`**: The main entry point for the chatbot application pipeline.
+- **`/notebooks/`**: Contains raw exploratory notebooks used for dataset processing and model training (e.g., `Clinical_Chatbot_Project.ipynb` & `Preprocessing_Draft.ipynb`). It also houses the main entry point pipeline (`chatbot.ipynb`).
+- **`Final_Report.pdf`**: The detailed NLP final project report.
 
 ---
 
@@ -50,9 +49,9 @@ This repository is organized logically for easy navigation and contribution:
 
 ## Usage
 
-The quickest way to interact with the chatbot is through the `chatbot.ipynb` notebook located in the root repository.
+The quickest way to interact with the chatbot is through the `chatbot.ipynb` notebook located in the `notebooks` repository.
 
-1. Open `chatbot.ipynb` into a Jupyter environment.
+1. Open `notebooks/chatbot.ipynb` into a Jupyter environment.
 2. Run the cells to initialize the models.
 3. Call the `chat()` function, passing in your text Query. For example:
    ```python
@@ -67,4 +66,4 @@ The quickest way to interact with the chatbot is through the `chatbot.ipynb` not
 
 ## Documentation
 
-For an in-depth dive into the model architectures, the extraction strategies, and rigorous benchmark results, please refer to the project research paper contained in **`docs/CS 6120 - NLP Final Project - Clinical Chatbot.pdf`**.
+For an in-depth dive into the model architectures, the extraction strategies, and rigorous benchmark results, please refer to the project research paper contained in **`Final_Report.pdf`**.
